@@ -1,4 +1,4 @@
-
+from .base import *
 
 #OCULTAR ESTA CLAVE
 SECRET_KEY = 'django-insecure-%ujzgm923y)sew7b&08$e(+m%jx6*jb$11-5wd@f=q+p=*lk+('
@@ -15,6 +15,8 @@ ALLOWED_HOSTS = []
 
 #CONFIGURACION REAL DE LA BD DE PRODUCCION
 #CONFIGURAR USUARIOS Y CONTRASEÑAS Y PUERTOS.
+# cambiar a MySQL 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
